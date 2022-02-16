@@ -11,19 +11,19 @@ const Dropdown = ({title}) => {
 
             <div className="dropdown__body">
                 <div className="dropdown-item"> USD - US Dollar </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> EUR - Euro </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> GBP - British Pound </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> INR - Indian Rupee </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> BDT - Bangladesh Taka </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> JPY - Japan Yen </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> CAD - Canada Dollar </div>
-                <hr />
+                <div className='hr' />
                 <div className="dropdown-item"> AUD - Australian Dollar </div>
             </div>
         </div>

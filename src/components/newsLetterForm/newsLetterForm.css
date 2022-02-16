@@ -4,3 +4,45 @@
     justify-content: center;
     align-items: center;
 }
+
+.news-letter-form h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: Playfair Display,serif;
+    margin-bottom: 0.5rem;
+}
+
+.news-letter-form p {
+    line-height: 26px;
+    margin-bottom: 37px;
+}
+
+.news-letter-form .search-box {
+    display: flex;
+    width: 690px;
+    margin-bottom: 50px;
+}
+
+.news-letter-form .search-box input{
+    background: #f6f3f3 none repeat scroll 0 0;
+    border: 2px solid #ebebeb;
+    color: #a7a7a7;
+    padding: 10px 224px 10px 20px;
+    flex: 1;
+}
+
+.news-letter-form .search-box .search-box__button {
+    background: #c09578;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 60px;
+    border: 0;
+    border-radius: 4px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

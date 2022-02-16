@@ -1,0 +1,8 @@
+.banner-section {
+    width: 100%;
+    margin: 30px 0 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+}

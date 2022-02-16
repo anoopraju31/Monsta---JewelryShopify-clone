@@ -1,5 +1,5 @@
 import './App.css'
-import { Banner, Carousel, HeroCarousels, Navbar, NewsLetterForm, ProductCarousel } from './components/import'
+import { Banner, BannerSection, Carousel, Footer, HeroCarousels, Navbar, NewsLetterForm, ProductCarousel } from './components/import'
 
 
 
@@ -26,6 +26,10 @@ const App = () => {
       <Navbar />
       
       <HeroCarousels />
+
+      <div className="container">
+        <BannerSection />
+      </div>
       
       <div className="container">
         <ProductCarousel images={images} />
@@ -53,6 +57,12 @@ const App = () => {
       
       <div className="container">
         <NewsLetterForm />
+      </div>
+
+      <div className="horizontal-line"></div>
+      
+      <div className="container">
+        <Footer />
       </div>
     </div>
   )

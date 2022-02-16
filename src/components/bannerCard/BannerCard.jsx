@@ -2,7 +2,7 @@ import './bannerCard.css'
 
 const BannerCard = ({img, secondaryTitle, primaryTitle, price}) => {
     return (
-        <div className='banner'>
+        <div className='banner-card'>
 			<div className="banner-img-container">
 				<img src={img} alt="" />
 			</div>

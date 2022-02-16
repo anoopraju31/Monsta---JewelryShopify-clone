@@ -5,6 +5,11 @@
     flex-direction: column;
 }
 
+.hr {
+    height: 1px;
+    background-color: #ebebeb;
+}
+
 .dropdown__header {
     display: flex;
     align-items: center;

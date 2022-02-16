@@ -1,4 +1,4 @@
-.banner {
+.banner-card {
     height: 250px;
     position: relative;
     overflow: hidden;
@@ -22,7 +22,7 @@
     z-index: 10;
 }
 
-.banner:hover .banner-img-container::before {
+.banner-card:hover .banner-img-container::before {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -31,7 +31,7 @@
     transition: all 0.3s ease 0s;
 }
 
-.banner:hover .banner-img-container img {
+.banner-card:hover .banner-img-container img {
     transform: scale(1.1);
 }
 
