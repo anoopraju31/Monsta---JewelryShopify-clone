@@ -1,3 +1,5 @@
+![Screenshot (288)](https://user-images.githubusercontent.com/59496739/154302481-634b45eb-57b5-4c90-9658-1e5a4f206ed0.png)
+
 ![Screenshot (289)](https://user-images.githubusercontent.com/59496739/154302388-d73f040e-ce8f-4043-83e4-385e72a928f4.png)
 
 ![Screenshot (290)](https://user-images.githubusercontent.com/59496739/154302401-c99aef3d-f4b6-4c9d-8a57-37bf982214de.png)
@@ -9,9 +11,6 @@
 ![Screenshot (293)](https://user-images.githubusercontent.com/59496739/154302449-7c53bd60-cf37-4174-ada5-b0ddf6604251.png)
 
 ![Screenshot (294)](https://user-images.githubusercontent.com/59496739/154302468-8af7ca2d-63b4-48e9-9f61-5b8f52e1f4cb.png)
-
-![Screenshot (288)](https://user-images.githubusercontent.com/59496739/154302481-634b45eb-57b5-4c90-9658-1e5a4f206ed0.png)
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
