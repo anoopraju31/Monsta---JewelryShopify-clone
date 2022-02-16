@@ -1,0 +1,10 @@
+.marker {
+    width: 60px;
+    background: var(--gold-color);
+    border-radius: 3px;
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+.banner {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-img-container {
+    z-index: -1;
+}
+
+.banner-img-container::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.08);
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.banner:hover .banner-img-container::before {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.banner-img-container img {
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.banner:hover .banner-img-container img {
+    transform: scale(1.1);
+}
+
+.banner-content-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.banner-content-container h4 {
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--secondary-text-color);
+}
+
+.banner-content-container h2 {
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.banner-content-container p {
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #242424;
+}

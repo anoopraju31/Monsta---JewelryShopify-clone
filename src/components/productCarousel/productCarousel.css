@@ -1,0 +1,36 @@
+.product-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.carousel {
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+.inner-carousel {
+    display: flex;
+    z-index: 100;
+}
+
+.item {
+    min-width: calc(25% - 10px);
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 2fr 2fr 130px;
+}
+
+.left-arrow {
+    position: relative;
+    top: -60px;
+    margin-right: 20px;
+}
+
+.right-arrow {
+    position: relative;
+    top: -60px;
+    margin-left: 20px;
+}

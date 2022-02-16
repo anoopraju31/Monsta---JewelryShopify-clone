@@ -1,0 +1,41 @@
+.carousel-slider {
+    width: 100%;
+    height: 480px;
+    margin-bottom: 60px;
+}
+
+.carousel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.carousel-header h2 {
+    font-family: Playfair Display,serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.carousel-header .horizontal-line {
+    flex: 1;
+    height: 2px;
+    margin: 0 10px;
+    background-color: #ebebeb;
+}
+
+.carousel-header .arrow-container .arrow {
+    font-weight: lighter;
+    font-size: 24px;
+    color: #5a5a5a;
+}
+
+.carousel-header .arrow-container .arrow:hover {
+    color: var(--gold-color);
+}
+
+.carousel-container {
+    display: flex;
+}
